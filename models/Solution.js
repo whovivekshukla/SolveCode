@@ -15,8 +15,9 @@ const SolutionSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  result:{
+  result: {
     type: String,
+    enum: ["accepted", "failed", "compilation error"],
   },
   submittedAt: {
     type: Date,
