@@ -1,7 +1,6 @@
-
 # SolveCode
 
-Project SolveCode is a web application that provides a platform for users to practice coding by submitting and testing their code solutions. It includes features such as user authentication (login and signup) and integration with the Sphere Engine API for testing code submissions. The application also allows administrators to upload and manage coding questions for users to solve.
+Project SolveCode is an API-based web application that provides a platform for users to practice coding by submitting and testing their code solutions. It includes features such as user authentication (login and signup) and integration with the Sphere Engine API for testing code submissions. The application also allows administrators to upload and manage coding questions for users to solve.
 
 ## Features
 
@@ -13,7 +12,6 @@ Project SolveCode is a web application that provides a platform for users to pra
 - Coding Questions:
   - Administrators can upload coding questions to the application.
   - Users can view and attempt the coding questions.
-  - The application provides a code editor for users to write their solutions.
   - Users can submit their code solutions for testing.
 
 - Code Testing:
@@ -23,11 +21,6 @@ Project SolveCode is a web application that provides a platform for users to pra
   - Users can view the test results and feedback for their code submissions.
 
 ## Technologies Used
-
-- Front-end:
-  - HTML, CSS, JavaScript
-  - React.js (JavaScript library for building user interfaces)
-  - CodeMirror (JavaScript library for code editing)
 
 - Back-end:
   - Node.js (JavaScript runtime environment)
@@ -46,11 +39,11 @@ Project SolveCode is a web application that provides a platform for users to pra
 
 To set up and run the Project SolveCode application locally, follow these steps:
 
-1. Clone the repository from GitHub: `git clone https://github.com/your-username/solvecode.git`
+1. Clone the repository from GitHub: `git clone https://github.com/whovivekshukla/solvecode.git`
 2. Install the necessary dependencies: `npm install`
 3. Set up the MongoDB database connection and configure the Sphere Engine API credentials.
 4. Start the application: `npm start`
-5. Access the application in your web browser at `http://localhost:3000`
+5. Access the application using an API testing tool (e.g., Postman) to make requests to the available endpoints.
 
 ## Configuration
 
@@ -60,14 +53,6 @@ Before running the application, make sure to configure the following:
 
 - Sphere Engine API Credentials: Obtain API credentials from the Sphere Engine platform and configure them in the application's settings. This includes the access token and endpoint for making API requests.
 
-## Usage
-
-1. Sign up for a new account or log in to your existing account.
-2. Browse the available coding questions and select one to attempt.
-3. Use the provided code editor to write your solution for the selected question.
-4. Submit your code solution for testing.
-5. View the test results and feedback for your code submission.
-6. Repeat the process to solve and test more coding questions.
 
 ## Contributing
 
